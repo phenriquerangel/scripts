@@ -1,4 +1,4 @@
 #Criação registro A
-Add-DnsServerResourceRecordA -Name "keymanagerclrvip" -ZoneName "buy4sc.local" -AllowUpdateAny -IPv4Address "172.17.115.146" 
+Add-DnsServerResourceRecordA -Name "hostname" -ZoneName "DNS.local" -AllowUpdateAny -IPv4Address "x.x.x.x" 
 #Criação registro CNAME
-Add-DnsServerResourceRecordCName -Name "keymanager-clr" -HostNameAlias "keymanagerclrvip.buy4sc.local" -ZoneName "buy4sc.local"
+Add-DnsServerResourceRecordCName -Name "CNAME" -HostNameAlias "hostname.DNS.local" -ZoneName "DNS.local"
